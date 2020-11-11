@@ -9,7 +9,7 @@ void print(int men, int mai)
             cout<<'#';
         else
             cout<<' ';
-        }
+    }
         cout << endl;
 }
 
