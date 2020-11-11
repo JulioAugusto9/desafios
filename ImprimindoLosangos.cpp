@@ -15,8 +15,9 @@ void print(int men, int mai)
 
 bool losango(int men, int mai)
 {
-    if (men<0) return false;
-        print(men, mai);
+    if (men<0) 
+        return false;
+    print(men, mai);
     if (losango(men-1, mai+1))
     {
         print(men, mai);
