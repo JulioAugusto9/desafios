@@ -10,7 +10,7 @@ void print(int men, int mai)
         else
             cout<<' ';
     }
-        cout << endl;
+    cout << endl;
 }
 
 bool losango(int men, int mai)
